@@ -18,15 +18,17 @@ public class Functioninator {
     public static String  checkVoelinThendOfWord(String s){
         int len=s.length();
         char c = Character.toLowerCase(s.charAt(len-1));
-        String slen=String.valueOf(len);
+        String slen= ' '+String.valueOf(len)+"000";
+
+        
         String inator= "inator";
         
         if ((c=='a') || c=='o' || c=='i' || c=='e'|| c=='u' || c=='y'){
 
-            return (s + '-'+ inator+ ' '+ slen +"000");
+            return (s + '-'+ inator + slen);
         }
         else
-        return (s+ inator +' '+ slen +"000");
+        return (s+ inator + slen);
     }
     public static void main(String[] args) {
 

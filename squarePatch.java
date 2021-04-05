@@ -23,5 +23,6 @@ public static void main(String[] args) {
     printMatrix(3);
     printMatrix(4);
     printMatrix(5);
+    printMatrix(6);
 }
 }
